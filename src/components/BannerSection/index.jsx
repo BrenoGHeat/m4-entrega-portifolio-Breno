@@ -1,11 +1,18 @@
-export const BannerSection = () => {
-    return(
-        <div>
-            <h1>Bem Vindo ao meu Portifolio</h1>
-            <p>Uma frase interessante sobre mim</p>
-            <img src="" alt="" />
-            <button>Saiba Mais</button>
-        </div>
+import Banner from "../../assets/banner-img.png";
 
+
+export const BannerSection = () =>{
+    return(
+        <>
+        <div>
+            <p>BrenoGarcia</p>
+            <h1>Bem vindo ao meu Portfólio</h1>
+            <p>Uma frase interessante sobre mim</p>
+            <button type="button">Saiba Mais</button>
+        </div>
+        <div>
+                <img src={Banner} alt="" />
+        </div>
+        </>
     )
 }

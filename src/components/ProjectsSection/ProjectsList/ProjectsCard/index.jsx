@@ -1,4 +1,4 @@
-export const TechCard = () => {
+export const ProjectsCard = () => {
     return(
         <li>
             

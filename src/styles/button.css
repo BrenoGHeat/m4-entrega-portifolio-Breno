@@ -1,0 +1,25 @@
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 2.438rem;
+
+    width: 7.125rem;
+
+    background-color: var(--color-primary);
+
+    color: var(--color-white);
+    font-family: var(--font-primary);
+    font-weight: 600;
+    font-size: 0.875rem;
+
+    border-radius: 12px;
+
+}
+
+.btn:hover{
+
+    background-color: var(--color-primary-hover);
+
+}

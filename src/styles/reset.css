@@ -4,3 +4,10 @@
     list-style: none;
     box-sizing: border-box;
 }
+
+
+button{
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}

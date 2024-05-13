@@ -6,3 +6,8 @@
     --color-black: #000000;
     --color-white: #FFFFFF;
 }
+
+body{
+    width:100%;
+    background-color: aqua;
+}

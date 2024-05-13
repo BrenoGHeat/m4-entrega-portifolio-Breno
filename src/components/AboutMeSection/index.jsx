@@ -3,9 +3,11 @@ export const AboutMeSection = () => {
     <div>
       <h1>Sobre mim</h1>
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci
-        commodi ut veniam eum libero beatae earum veritatis? Vero non ex, optio
-        consectetur in voluptatem, est rerum, molestiae iste iusto laudantium!
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex magna,
+        imperdiet sodales sem quis, sollicitudin lobortis purus. Etiam a ipsum
+        finibus, dictum leo non, ultrices dui. Nunc id felis pharetra, vehicula
+        enim in, suscipit nisi. Mauris eget sapien a velit facilisis ullamcorper
+        feugiat nec orci. Duis ac iaculis turpis, at feugiat orci.
       </p>
     </div>
   );

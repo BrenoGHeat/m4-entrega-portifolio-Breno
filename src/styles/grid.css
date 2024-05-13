@@ -1,0 +1,11 @@
+.container.sm{
+    display: flex;
+    flex-direction: row;
+    
+    
+
+
+    width: 56rem;
+    height: 5.563rem;
+
+}
