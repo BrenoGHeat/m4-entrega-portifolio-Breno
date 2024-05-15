@@ -1,11 +1,17 @@
 .container.sm{
+   
     display: flex;
-    flex-direction: row;
-    
-    
-
-
     width: 56rem;
     height: 5.563rem;
+    
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
 
+}
+
+.container.logo{
+    display: flex;
+    gap: 1rem;
+    
 }

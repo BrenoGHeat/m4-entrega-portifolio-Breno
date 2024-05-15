@@ -8,6 +8,10 @@
 }
 
 body{
-    width:100%;
-    background-color: aqua;
+    max-width: 1024px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    margin: 0 auto;
+
 }
+
