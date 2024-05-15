@@ -1,6 +1,7 @@
 .container.sm{
    
     display: flex;
+
     width: 56rem;
     height: 5.563rem;
     
@@ -14,4 +15,24 @@
     display: flex;
     gap: 1rem;
     
+}
+
+.container.header{
+    display: flex;
+    gap: 3.75rem;
+
+}
+
+.container.about{
+   max-width: 64rem;
+   height: 9.375rem;
+   margin: 0 auto;
+
+}
+
+.container.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
 }

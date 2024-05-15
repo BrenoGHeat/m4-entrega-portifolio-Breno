@@ -1,0 +1,22 @@
+.paragraph.about{
+
+    width: 38.438rem;
+    height: 9.375rem;
+
+    font-family: var(--font-primary);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.875rem;
+   
+}
+
+.title.one{
+    font-family: var(--font-primary);
+    font-weight: 800;
+}
+
+.title.two{
+    font-family: var(--font-primary);
+    font-weight: 800;
+    font-size: 2.5rem;
+}

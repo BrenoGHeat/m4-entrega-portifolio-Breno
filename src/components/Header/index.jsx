@@ -5,9 +5,9 @@ import styles from "./style.module.css";
 
 export const Header = () => {
     return (
-        <header className="header">
+        <header className={styles.header}>
             <img src={Portfolio} alt="Logo Portfolio" />
-            <div>
+            <div className="container header">
                 <h3>Sobre</h3>
                 <h3>Stack</h3>
                 <h3>Projetos</h3>

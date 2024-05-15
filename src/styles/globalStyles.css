@@ -8,10 +8,15 @@
 }
 
 body{
-    max-width: 1024px;
+   
     background-color: var(--color-black);
     color: var(--color-white);
-    margin: 0 auto;
-
+   
 }
 
+
+main{ 
+    max-width: 1024px;
+    margin: 0 auto;
+    
+}

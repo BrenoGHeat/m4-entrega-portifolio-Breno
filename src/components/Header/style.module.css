@@ -1,7 +1,15 @@
 .header {
-        width: 56.125rem;
+        max-width: 64rem;
         height: 2.438rem;
+        
+        margin: 0 auto;
+        
         display: flex;
+       
         flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
 }
+
+
 

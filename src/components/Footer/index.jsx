@@ -9,7 +9,7 @@ export const Footer = () => {
     <footer className={styles.footer}>
       <div className="container sm">
         <div className="container ft">
-          <h1>Contato</h1>
+          <h2>Contato</h2>
           <div className="container logo">
 
           <img src={Whatsapp} alt="Logo Whatsapp" />

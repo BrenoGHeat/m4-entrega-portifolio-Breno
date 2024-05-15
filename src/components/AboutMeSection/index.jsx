@@ -1,8 +1,12 @@
+
+
+import styles from "./style.module.css";
+
 export const AboutMeSection = () => {
   return (
-    <div>
-      <h1>Sobre mim</h1>
-      <p>
+    <div className={styles.about}>
+      <h1 className="title one">Sobre mim</h1>
+      <p className="paragraph about">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex magna,
         imperdiet sodales sem quis, sollicitudin lobortis purus. Etiam a ipsum
         finibus, dictum leo non, ultrices dui. Nunc id felis pharetra, vehicula

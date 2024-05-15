@@ -1,0 +1,10 @@
+.about{ 
+    max-width: 64rem;
+    height: 9.375rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
