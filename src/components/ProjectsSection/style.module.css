@@ -1,5 +1,6 @@
 .card{ 
-    width: 56.25rem;
-    height: 28.875rem;
+   max-width: 64rem;
+   height: 28.875rem;
+   margin: 0 auto;
 
 }

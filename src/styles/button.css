@@ -19,13 +19,13 @@
 }
 
 .btn:hover{
-
     background-color: var(--color-primary-hover);
 
 }
 
 .btn.banner{
+   
     width: 8.125rem;
-    height: 2.438rem;  
+    height: 2.438rem;
    
 }

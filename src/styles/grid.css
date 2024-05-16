@@ -20,12 +20,12 @@
 .container.header{
     display: flex;
     gap: 3.75rem;
-
 }
 
 .container.about{
-    max-width: 56.25rem;
+    max-width: 56rem;
     height: 9.375rem;
+   
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -34,39 +34,26 @@
 }
 
 .container.banner{
-    max-width: 20rem;
+    width: 20rem;
     height: 17.313rem;
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
-.container.img{
-    max-width: 27.375rem;
-    height: 16.625rem;
-    
-}
-
-.container.tech{
-    width: 56rem;
-    height: 11.688rem;
-    display: flex;
-    align-content: center;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    gap: 18px;
-
-}
 
 .container.list{
     max-width: 17.938rem;
     display: flex;
     height: 5.375rem;
-    border: 1px solid #FFFFFF80;
+   
     border-radius: 12px;
     flex-direction: row;
-    align-items: center;
     gap: 15px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -77,4 +64,55 @@
     display: flex;
     flex-direction: column;
 
+}
+
+
+
+.mini.container.card{
+    width: 439px;
+    height: 183px;
+   
+    border: 1px solid #FFFFFF80;
+    border-radius: 25px;
+   
+    padding: 15px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.container.projects.list{
+    max-width: 56rem;
+    height: 24.063rem;
+    
+}
+
+.container.technologies{
+    width: 287px;
+    display: flex;
+    height: 86px;
+    border: 1px solid #FFFFFF80;
+    border-radius: 25px;
+   
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container.tech{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 18px;
+    padding: 10px 0px;
+
+}
+
+.container.img{
+    width: 27.362rem;
+    height: 16.604rem;
+    
 }

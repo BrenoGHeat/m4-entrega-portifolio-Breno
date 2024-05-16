@@ -5,7 +5,7 @@ import styles from "./style.module.css";
 export const ProjectsSection = () =>{
     return (
         <section className={styles.card}>
-            <h1>Projetos</h1>
+            <h2 className="title md">Projetos</h2>
            <ProjectsList />
         </section>
     )

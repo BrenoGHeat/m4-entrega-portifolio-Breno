@@ -3,11 +3,8 @@
 
     margin: 0 auto;
     height: 11.875rem;
-   
-   font-family: var(--font-primary);
 
     border-top: 1px solid var(--color-white);
-   
     border-bottom: 1px solid var(--color-white);
     
     display: flex;

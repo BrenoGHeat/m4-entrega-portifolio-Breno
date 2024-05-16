@@ -1,7 +1,7 @@
 .tech{
-    max-width: 56.25rem;
+    width: 64rem;
     height: 16.438rem;
-    display: flex;
-    flex-direction: column;
     margin: 0 auto;
+
 }
+

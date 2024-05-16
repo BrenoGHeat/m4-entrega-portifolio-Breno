@@ -1,7 +1,6 @@
 *{
     margin:0;
     padding:0;
-    list-style: none;
     box-sizing: border-box;
 }
 
@@ -12,6 +11,10 @@ button{
     border: none;
 }
 
+ul,ol{
+    list-style: none;
+}
+
 
 img{
     max-width: 100%;
@@ -20,4 +23,9 @@ img{
 .img.tech{
     width: 32px;
     height:37px;
+}
+
+.git.icon{
+    width: 37px;
+    height: 38px;
 }

@@ -9,7 +9,7 @@ export const Footer = () => {
     <footer className={styles.footer}>
       <div className="container sm">
         <div className="container ft">
-          <h2>Contato</h2>
+          <h2 className="title md">Contato</h2>
           <div className="container logo">
 
           <img src={Whatsapp} alt="Logo Whatsapp" />
@@ -17,7 +17,7 @@ export const Footer = () => {
           <img src={GitHub} alt="Logo GitHub" />
           </div>
         </div>
-        <p>Todos os direitos reservados - Breno Garcia </p>
+        <p className="paragraph">Todos os direitos reservados - Breno Garcia </p>
       </div>
     </footer>
   );

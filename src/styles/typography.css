@@ -1,39 +1,49 @@
-.paragraph.about{
 
-   
-
-    font-family: var(--font-primary);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.875rem;
-   
-}
-
-.title.one{
+.title{
     font-family: var(--font-primary);
     font-weight: 800;
-    font-size: clamp(2.625rem, 2.357rem + 0.714vw, 3rem);
-    line-height: 58.09px;
-
-
-
+    line-height: 1.4;
+    color: var(--color-white);
 }
 
-.title.two{
-    font-family: var(--font-primary);
-    font-weight: 800;
+.title.lg{
+    font-size: 3rem ;
+}
+
+.title.md{
     font-size: 2.5rem;
 }
 
-.paragraph.three{
-    font-family: var(--font-primary);
-    font-weight: 600;
-    font-size: 14px;
+.title.sm{
+    font-size: 1.375rem;
 }
 
-.paragraph {
+.paragraph{
     font-family: var(--font-primary);
     font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.8;
+
+}
+
+.paragraph md{
+    font-family: var(--font-primary);
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1;
+}
+
+
+a{
+    font-family: var(--font-primary);
+    font-weight: 700;
     font-size: 16px;
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-primary-hover);
+    text-decoration: underline;
 }
 
