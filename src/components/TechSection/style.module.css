@@ -1,7 +1,9 @@
 .tech{
-    width: 64rem;
-    height: 16.438rem;
-    margin: 0 auto;
+    max-width: 64rem;
+    
+    padding: 1rem;
+
+    margin: 0 auto 101px;
 
 }
 

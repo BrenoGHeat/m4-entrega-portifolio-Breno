@@ -28,4 +28,7 @@ img{
 .git.icon{
     width: 37px;
     height: 38px;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
 }
