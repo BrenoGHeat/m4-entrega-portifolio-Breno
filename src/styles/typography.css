@@ -1,11 +1,10 @@
 .paragraph.about{
 
-    width: 38.438rem;
-    height: 9.375rem;
+   
 
     font-family: var(--font-primary);
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 16px;
     line-height: 1.875rem;
    
 }
@@ -13,6 +12,11 @@
 .title.one{
     font-family: var(--font-primary);
     font-weight: 800;
+    font-size: clamp(2.625rem, 2.357rem + 0.714vw, 3rem);
+    line-height: 58.09px;
+
+
+
 }
 
 .title.two{
@@ -20,3 +24,16 @@
     font-weight: 800;
     font-size: 2.5rem;
 }
+
+.paragraph.three{
+    font-family: var(--font-primary);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.paragraph {
+    font-family: var(--font-primary);
+    font-weight: 400;
+    font-size: 16px;
+}
+

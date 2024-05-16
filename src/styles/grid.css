@@ -24,15 +24,57 @@
 }
 
 .container.about{
-   max-width: 64rem;
-   height: 9.375rem;
-   margin: 0 auto;
-
+    max-width: 56.25rem;
+    height: 9.375rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 5px;
+    justify-content: center;
 }
 
 .container.banner{
+    max-width: 20rem;
+    height: 17.313rem;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
+    gap: 1.5rem;
+}
+
+.container.img{
+    max-width: 27.375rem;
+    height: 16.625rem;
+    
+}
+
+.container.tech{
+    width: 56rem;
+    height: 11.688rem;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 18px;
+
+}
+
+.container.list{
+    max-width: 17.938rem;
+    display: flex;
+    height: 5.375rem;
+    border: 1px solid #FFFFFF80;
+    border-radius: 12px;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+
+}
+
+
+.container.project.list{
+    width: 896px;
+    height: 385px;
+    display: flex;
+    flex-direction: column;
+
 }

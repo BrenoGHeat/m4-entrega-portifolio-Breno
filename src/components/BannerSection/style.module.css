@@ -1,6 +1,9 @@
 .banner {
-    max-width: 64rem;
+    max-width: 56.25rem;
+    display: flex;
+    padding: 1rem;
     height: 17.313rem;
     margin: 0 auto;
-    
+    flex-direction: row;
+    justify-content: space-between;
 }

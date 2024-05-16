@@ -1,6 +1,8 @@
 .header {
-        max-width: 64rem;
+        max-width: 56.25rem;
         height: 2.438rem;
+
+        padding: 2rem;
         
         margin: 0 auto;
         
