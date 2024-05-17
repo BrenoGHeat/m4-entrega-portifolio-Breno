@@ -6,7 +6,8 @@ import styles from "./style.module.css";
 
 export const Footer = () => {
   return (
-    <footer className={styles.footer}>
+    <footer>
+      <div className={styles.footer}>
       <div className="container sm">
         <div className="container ft">
           <h2 className="title md">Contato</h2>
@@ -18,6 +19,7 @@ export const Footer = () => {
           </div>
         </div>
         <p className="paragraph">Todos os direitos reservados - Breno Garcia </p>
+      </div>
       </div>
     </footer>
   );

@@ -1,9 +1,17 @@
+
+.container.header{
+    display: flex;
+    gap: 3.75rem;
+    padding: 1rem;
+}
+
+
 .container.sm{
    
     display: flex;
 
     width: 56rem;
-    height: 5.563rem;
+    
     
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -17,15 +25,10 @@
     
 }
 
-.container.header{
-    display: flex;
-    gap: 3.75rem;
-}
-
 .container.about{
     width: 100%;
     display: flex;
-    height: 9.375rem;
+   
     flex-direction: row;
     gap: 30px;
     flex-wrap: nowrap;
@@ -35,7 +38,6 @@
 
 .container.paragraph{
     width: 38.438rem;
-    height: 9.375rem;
     line-height: 1.875rem;
 }
 
@@ -49,30 +51,23 @@
 
 
 .container.list{
-    max-width: 17.938rem;
     display: flex;
-    height: 5.375rem;
-   
-    border-radius: 12px;
-    flex-direction: row;
+  
     gap: 15px;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    align-items: center;
+    
 
 }
 
 
 .container.project.list{
     width: 56rem;
-    height: 24.063rem;
     display: flex;
     flex-direction: column;
 
 }
-
-
 
 .mini.container.card{
     width: 27.438rem;
@@ -96,7 +91,6 @@
 
 .container.projects.list{
     max-width: 56rem;
-    height: 24.063rem;
     
 }
 
@@ -121,8 +115,46 @@
 
 }
 
-.container.img{
-    width: 27.362rem;
-    height: 16.604rem;
-    
+
+@media (min-width:300px) and (max-width:900px){
+    .container.about{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
 }
+@media (min-width:300px) and (max-width:900px){
+    .container.paragraph{
+            max-width: 100%;
+            line-height: 1.875rem;
+    }
+}
+
+
+@media (min-width:300px) and (max-width:900px){
+    .container.sm{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap:10px;
+    }
+ }
+
+
+ @media (min-width:300px) and (max-width:900px){
+    .container.ft{
+        display: flex;
+        flex-direction: column;
+      
+        align-items: center;
+    }
+ }
+
+
+ @media (min-width:300px) and (max-width:900px){
+    .container.technologies{
+        width: 332px;
+    }
+ }

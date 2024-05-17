@@ -4,8 +4,9 @@ import styles from "./style.module.css";
 
 export const AboutMeSection = () => {
   return (
-    <section className={styles.about}>
-     <div className="container about">
+    <section>
+      <div className={styles.about}>
+      <div className="container about">
       <h2 className="title md">Sobre mim</h2>
       <p className="container paragraph">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex magna,
@@ -14,6 +15,7 @@ export const AboutMeSection = () => {
         enim in, suscipit nisi. Mauris eget sapien a velit facilisis ullamcorper
         feugiat nec orci. Duis ac iaculis turpis, at feugiat orci.
       </p>
+      </div>
       </div>
     </section>
   );
