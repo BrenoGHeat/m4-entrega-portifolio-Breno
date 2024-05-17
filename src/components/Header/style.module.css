@@ -1,5 +1,5 @@
 .header {
-       
+        width: 100%;
         max-width: 64rem;
 
         padding: 1rem;
@@ -14,4 +14,17 @@
 }
 
 
-
+@media (min-width:300px) and (max-width:900px){
+        .header{
+                width: 100%;
+              
+                padding: 1rem;
+                margin: 0 auto;
+               
+                display: flex;
+                flex-direction: column;
+                
+                justify-content: space-between;
+                align-items: center;
+        }
+}

@@ -65,8 +65,8 @@
 
 
 .container.project.list{
-    width: 896px;
-    height: 385px;
+    width: 56rem;
+    height: 24.063rem;
     display: flex;
     flex-direction: column;
 
@@ -75,8 +75,8 @@
 
 
 .mini.container.card{
-    width: 439px;
-    height: 183px;
+    width: 27.438rem;
+    height: 11.438rem;
    
     border: 1px solid #FFFFFF80;
     border-radius: 25px;
@@ -101,9 +101,10 @@
 }
 
 .container.technologies{
-    width: 287px;
-    display: flex;
+    width:287px;
     height: 86px;
+    display: flex;
+  
     border: 1px solid #FFFFFF80;
     border-radius: 25px;
    
