@@ -1,6 +1,6 @@
 .banner{
     width: 100%;
-    max-width: 64rem;
+    max-width: 56.25rem;
   
     
     display: flex;
@@ -15,7 +15,7 @@
 @media (min-width:300px) and (max-width:900px){
     .banner{
         width: 100%;
-        max-width: 64rem;
+        max-width: 56.25rem;
         display: block;
         padding: 1.5rem;
     }

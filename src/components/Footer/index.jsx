@@ -8,18 +8,19 @@ export const Footer = () => {
   return (
     <footer>
       <div className={styles.footer}>
-      <div className="container sm">
-        <div className="container ft">
-          <h2 className="title md">Contato</h2>
-          <div className="container logo">
-
-          <img src={Whatsapp} alt="Logo Whatsapp" />
-          <img src={Linkedin} alt="Logo Linkedin" />
-          <img src={GitHub} alt="Logo GitHub" />
+        <div className="container sm">
+          <div className="container ft">
+            <h2 className="title md">Contato</h2>
+            <div className="container logo">
+              <img src={Whatsapp} alt="Logo Whatsapp" />
+              <img src={Linkedin} alt="Logo Linkedin" />
+              <img src={GitHub} alt="Logo GitHub" />
+            </div>
           </div>
+          <p className="paragraph">
+            Todos os direitos reservados - Breno Garcia{" "}
+          </p>
         </div>
-        <p className="paragraph">Todos os direitos reservados - Breno Garcia </p>
-      </div>
       </div>
     </footer>
   );

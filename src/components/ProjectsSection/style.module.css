@@ -1,8 +1,15 @@
 .card{ 
-   max-width: 64rem;
+   max-width: 56.25rem;
   
-   padding: 1rem;
-
    margin: 0 auto 63px;
 
+}
+
+
+
+@media (min-width:300px) and (max-width:900px){
+   .card{
+       margin: 0 auto;
+       padding: 1rem;
+   }
 }
